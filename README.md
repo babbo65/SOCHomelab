@@ -1,22 +1,31 @@
-# SOCHomelab
+# 🛡️ SOC Homelab
 
 ## 📑 Table of Contents
-- [Goals&Intention](#Goals & Intention)
-- [Goals](#goals)
+- [Goals & Intention](#Goals--Intention)
 - [Architecture](#architecture)
-- [Tools & Technologies](#tools--technologies)
-- [Detection Use Cases](#detection-use-cases)
-- [Dashboards & Visualizations](#dashboards--visualizations)
-- [Incident Response Workflow](#incident-response-workflow)
+- [Plan](#Plan)
+- [Progress](#Progress)
 - [Future Steps](#future-steps)
+- [Conclusion](#Conclusion)
 
 
 ### Goals & Intention
+My Goal is to develop relevant skills associated with security operations, pen-testings, networkings, and more.
+
+I intend to built out my homelab to include many of these tools and technologies I intend to learn and practice, inluding Windows Server, VLANS, Splunk, and more.
+
+### Architecture
+
 
 ### Plan
+-Segment my homenetwork to make room for a secure homelab deploment.
+-Setup Windows Server 2022 with Active Directory Domain Services.
+-Setu Debina server with Splunk.
+-Setup legacy pi, and forward logs from all machines to Splunk.
+-Experiment with attacking and defending lab.
 
 ### Progress
 
-### Future Plans
+### Future Steps
 
 ### Conclusion
