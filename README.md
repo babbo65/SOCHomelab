@@ -1,7 +1,7 @@
 # SOCHomelab
 
 ## 📑 Table of Contents
-- [Goals & Intention](#Goals & Intention)
+- [Goals&Intention](#Goals & Intention)
 - [Goals](#goals)
 - [Architecture](#architecture)
 - [Tools & Technologies](#tools--technologies)
