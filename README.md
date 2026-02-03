@@ -16,6 +16,7 @@ I intend to built out my homelab to include many of these tools and technologies
 
 ## 🧱 Architecture
 
+![network](https://github.com/user-attachments/assets/4f407214-1e09-47dc-a9a3-a23d8bc456d4)
 
 ## Plan
 -Segment my homenetwork to make room for a secure homelab deploment.
