@@ -23,18 +23,19 @@ It will include one machine running Debain server with Splunk, aggreating logs f
 
 
 ## Plan
--Segment my homenetwork to make room for a secure homelab deploment.
--Setup Windows Server 2022 with Active Directory Domain Services.
--Setu Debina server with Splunk.
--Setup legacy pi, and forward logs from all machines to Splunk.
--Experiment with attacking and defending lab.
+1. Segment my homenetwork to make room for a secure homelab deploment.
+2. Setup Windows Server 2022 with Active Directory Domain Services.
+3. Setup Debina server with Splunk.
+4. Setup legacy pi, and forward logs from all machines to Splunk.
+5. Experiment with attacking and defending lab.
 
 ## Progress
+1. I finished subnetting my network with one small hicup. I had my AP broadcasting multiple networks each with a unique VLAN assigned. However despite the ability to connect to the network(s), devices could not access the internet. It turns out I forgot to enable VLAN trunking on the port on the router, despite enabling it on the switch ports connecting to the router and ap. Enabling this setting corrected the issue.
 
-I finishe subnettin my network with one small hicup. I had my AP broadcasting multiple networks each with a unique VLAN assigned. However despite the ability to connect to the network(s), devices could not access the internet. It turns out I forgot to enable VLAN trunking on the port on the router, despite enabling it on the switch ports connecting to the router and ap. Enabling this setting corrected the issue.
-
-I purchased two Dell optiplex 9020 micro's from Ebay, each with an Intel i5, 16GB DDr3 ram, and a 256GB SSD. This was plently to meet my requirements. I installed Windows Server 2022 on the first machine and began configuring it. My next issue began with configuring wifi on the machine, as I had limited space next to my switch, especially in terms of outlet space. The NIC was visable in BIOS, but not at all in Windows. Thus I worked to install the driver, and Windows refused it. From research I concluded that the Intel(R) Dual Band Wireless-AC 7260 was not compatible. I was able to scrap another NIC from a dell laptop, this one beng Qualcomm instead of Intel, and the drivers successfully installed and wifi operated as intended.
+2. I purchased two Dell optiplex 9020 micro's from Ebay, each with an Intel i5, 16GB DDr3 ram, and a 256GB SSD. This was plently to meet my requirements. I installed Windows Server 2022 on the first machine and began configuring it. My next issue began with configuring wifi on the machine, as I had limited space next to my switch, especially in terms of outlet space. The NIC was visable in BIOS, but not at all in Windows. Thus I worked to install the driver, and Windows refused it. From research I concluded that the Intel(R) Dual Band Wireless-AC 7260 was not compatible. I was able to scrap another NIC from a dell laptop, this one beng Qualcomm instead of Intel, and the drivers successfully installed and wifi operated as intended.
 
 ## Future Steps
+-Maybe add cloud connection, IPSEC tunnel to Azure VNET
+-Some reports including threat models, and en test writups
 
 ## Conclusion
