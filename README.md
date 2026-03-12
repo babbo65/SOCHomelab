@@ -36,6 +36,6 @@ It will include one machine running Debain server with Splunk, aggreating logs f
 
 ## Future Steps
 -Maybe add cloud connection, IPSEC tunnel to Azure VNET
--Some reports including threat models, and en test writups
+-Some reports including threat models, and pen test writups
 
 ## Conclusion
