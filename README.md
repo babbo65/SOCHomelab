@@ -34,6 +34,8 @@ It will include one machine running Debain server with Splunk, aggreating logs f
 
 2. I purchased two Dell optiplex 9020 micro's from Ebay, each with an Intel i5, 16GB DDr3 ram, and a 256GB SSD. This was plently to meet my requirements. I installed Windows Server 2022 on the first machine and began configuring it. My next issue began with configuring wifi on the machine, as I had limited space next to my switch, especially in terms of outlet space. The NIC was visable in BIOS, but not at all in Windows. Thus I worked to install the driver, and Windows refused it. From research I concluded that the Intel(R) Dual Band Wireless-AC 7260 was not compatible. I was able to scrap another NIC from a dell laptop, this one beng Qualcomm instead of Intel, and the drivers successfully installed and wifi operated as intended.
 
+I followed this incredible guide on setup for Windows Server 2022 including DNS and AD DS: https://www.itechguides.com/how-to-setup-a-windows-server-2022-ad-domain-step-by-step/
+
 ## Future Steps
 -Maybe add cloud connection, IPSEC tunnel to Azure VNET
 -Some reports including threat models, and pen test writups
